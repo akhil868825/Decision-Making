@@ -15,3 +15,16 @@ Sample Input:
 Sample Output:
 L3
 ...
+                       # Input format
+a = int(input())
+b = int(input())
+c = int(input())
+
+# Determine the lab with minimal seating capacity
+if a <= b and a <= c:
+    print("L1")
+elif b <= a and b <= c:
+    print("L2")
+else:
+    print("L3")
+
